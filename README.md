@@ -1,4 +1,4 @@
-# URL Shortener - Affordmed Technologies
+# URL Shortener
 
 A comprehensive React URL Shortener Web Application with advanced logging middleware, analytics, and expiry management.
 
