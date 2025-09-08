@@ -1,0 +1,30 @@
+{
+  "name": "url-shortener-app",
+  "version": "1.0.0",
+  "description": "A React URL Shortener Web Application with comprehensive logging middleware",
+  "main": "Logging Middleware/api-server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node \"Logging Middleware/api-server.js\"",
+    "client": "cd \"Frontend Test Submission\" && npm start",
+    "build": "cd \"Frontend Test Submission\" && npm run build",
+    "install-all": "npm install && cd \"Frontend Test Submission\" && npm install",
+    "dev": "concurrently \"npm run server\" \"cd \\\"Frontend Test Submission\\\" && npm start\"",
+    "test": "npm run test:backend && cd \"Frontend Test Submission\" && npm test",
+    "test:backend": "echo 'Backend tests would run here'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "uuid": "^9.0.0",
+    "concurrently": "^8.2.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["url-shortener", "react", "express", "logging", "middleware", "affordmed"],
+  "author": "Affordmed Technologies",
+  "license": "MIT"
+}
