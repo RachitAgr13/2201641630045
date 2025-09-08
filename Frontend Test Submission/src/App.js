@@ -13,7 +13,7 @@ function App() {
         <Toolbar>
           <LinkIcon sx={{ mr: 2 }} />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            URL Shortener - Affordmed Technologies
+            URL Shortener
           </Typography>
         </Toolbar>
       </AppBar>
